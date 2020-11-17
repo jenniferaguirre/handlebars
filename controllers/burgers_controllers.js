@@ -4,7 +4,7 @@ var burger = require("../models/burger.js")
 
 
 router.post("/burgers/add", function (req, res) {
-    burger.insertOne(req.body.burger_name, function (result) {
+    burger.create(req.body.burger_name, function (result) {
         console.log(result);
         res.redirect("/");
     });
@@ -19,8 +19,9 @@ router.get("/api/put", function (req, res) {
 });
 
 router.get("*", function (req, res) {
-    burger.all(function (err, burgerData) {
+    burger.all(function (burgerData) {
         console.log(burgerData)
+        console.log("here")
         res.render("index", { burger_data: burgerData });
     });
 });

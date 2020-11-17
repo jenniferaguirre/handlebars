@@ -11,7 +11,7 @@
 				<div class="col-md-9 text-center">
 					<pre>{{this.id}}. {{this.burger_name}}
 					</pre>
-				  
+				  	
 				</div>
 				<div class="col-md-3 text-center">
 					<form class="devour-form button-size" action="/api/put" method="GET">
@@ -44,12 +44,3 @@
 		</div>
 	</div>
 </div>
-
-  <div class="col-md-6 text-center" class="task">
-            <p><h5>Burgers Eaten</h5></p>
-            {{#each burger_data}}
-                {{#if this.inhaled}}
-                    <input class="form-control" type="text" placeholder="{{this.id}} . {{this.burger_name}}" readonly>
-                {{/if}}
-            {{/each}}
-        </div>
