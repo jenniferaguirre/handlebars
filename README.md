@@ -53,5 +53,4 @@ N/A
 Feel free to email me for any suggestions or questions to jennifermichelle.aguirre@gmail.com
 
 ## Screenshots
-
-![screenshot1] ((./assets/css/style.css)
+![screenshot1] ((public/assets/css/screenshot.png)
