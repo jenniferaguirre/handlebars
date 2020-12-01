@@ -54,5 +54,5 @@ Feel free to email me for any suggestions or questions to jennifermichelle.aguir
 
 ## Screenshots
 
-![] (screenshot/screenshot.png)
+I posted screenshot on the Issues Tab till able to resolve my issue
 
