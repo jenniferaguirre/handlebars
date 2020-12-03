@@ -58,4 +58,4 @@ Feel free to email me for any suggestions or questions to jennifermichelle.aguir
 
 ## Screenshots
 
-![screenshot1.png] ((public/assets/css/screenshot1.png)
+![screenshot.png] (public/screenshot.png)
