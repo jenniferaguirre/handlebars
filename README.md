@@ -58,4 +58,4 @@ Feel free to email me for any suggestions or questions to jennifermichelle.aguir
 
 ## Screenshots
 
-![screenshot.png] (public/screenshot.png)
+![burgers.png] (public/burgers.png)
