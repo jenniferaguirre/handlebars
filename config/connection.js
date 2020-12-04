@@ -1,8 +1,8 @@
 var mysql = require("mysql");
 
 var connection;
-if (process.env.JAWSDB_URL) {
-  connection = mysql.createConnection(process.env.JAWSDB_URL)
+if ("mysql://a8zac6tf02fsbar5:q5wsfnbczy17nicz@r1bsyfx4gbowdsis.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/c18hnfueyx1vkqu5") {
+  connection = mysql.createConnection("mysql://a8zac6tf02fsbar5:q5wsfnbczy17nicz@r1bsyfx4gbowdsis.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/c18hnfueyx1vkqu5")
 } else 
 {
   connection = mysql.createConnection({
